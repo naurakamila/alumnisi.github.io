@@ -1,0 +1,2 @@
+2023-02-10T15:15:47+00:00 CRITICAL Out of memory (allocated 14680064) (tried to allocate 28672 bytes) in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\woocommerce\src\Admin\API\Reports\Variations\Controller.php on line 163
+

@@ -1,0 +1,3 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkNDBPQnlQNUo2R3g5SmpQVXllV2xZc3M1RG9MYTFWUk5KZHBHc3RhYXVTY2ZJTSt4ZGltUVlaampiYnZ2bzFhQjQ3WCsvVGVCY24vSEtmaFhtNDQ0YlV1ZlZSd1h4ZGVkTXFQNDZzVkhPNEZQVG5IYjdLTFVNaktsQ09NNzExU1Y0PQ==*/
+// This file was auto-generated from sdk-root/src/data/aliases.json
+return [ 'operations' => [ 'ApiGatewayV2' => [ '2018-11-29' => [ 'GetApi' => 'GetApiResource', ], ], 'CloudHSM' => [ '2014-05-30' => [ 'GetConfig' => 'GetConfigFiles', ], ], 'GroundStation' => [ '2019-05-23' => [ 'GetConfig' => 'GetMissionProfileConfig', ], ], 'Pinpoint' => [ '2016-12-01' => [ 'GetEndpoint' => 'GetUserEndpoint', 'UpdateEndpoint' => 'UpdateUserEndpoint', 'UpdateEndpointsBatch' => 'UpdateUserEndpointsBatch', ], ], ],];

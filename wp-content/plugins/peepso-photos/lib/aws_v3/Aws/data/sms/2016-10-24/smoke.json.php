@@ -1,0 +1,3 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkN1NVMzZqbFY4Q01SdHV1NTZhLzFuZHZLNlA3eTRHemxyV2NSQ1Q4eEpydEpuUTFhcmc2ZFNibVpmd2FlZTVVRENoUTNpblc2RHFyTzUzQm1QemlpVm5rL2hVNGxsOHRGUHRUemxZOGN4T1E2cVZDZ21oeExJa2hBakt0djBHd2VvPQ==*/
+// This file was auto-generated from sdk-root/src/data/sms/2016-10-24/smoke.json
+return [ 'version' => 1, 'defaultRegion' => 'us-west-2', 'testCases' => [ [ 'operationName' => 'GetConnectors', 'input' => [], 'errorExpectedFromService' => false, ], [ 'operationName' => 'DeleteReplicationJob', 'input' => [ 'replicationJobId' => 'invalidId', ], 'errorExpectedFromService' => true, ], ],];

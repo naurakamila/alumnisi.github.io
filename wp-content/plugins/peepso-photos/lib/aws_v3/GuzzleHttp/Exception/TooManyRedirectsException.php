@@ -1,0 +1,6 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkNXRBOCtYcVdENjNGS2ZwNDVmeEU5WDlMdTlRMDhFeTBuNFJVWXk4dkxMbWlQU2p4M0xpcGdGR2ppWE9iTFRQZDkrTjl0eDRJREJXaWwwMzdnQlQ1cVV6cDdaakMvZFdMOGFYMHlvbnR3U1czcTRhbXlpd05uNmppTmREcm9BTkJVeHFtTmpFSW5zamJhVjBxcWNvd1pN*/
+namespace GuzzleHttp\Exception;
+
+class TooManyRedirectsException extends RequestException
+{
+}

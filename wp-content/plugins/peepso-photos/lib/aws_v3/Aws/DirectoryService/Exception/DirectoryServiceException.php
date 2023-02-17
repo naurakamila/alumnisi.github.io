@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkNm4vejd0SEJNVmtmTSt0MitvVEZSUlE5Z0lzbHhrTk41ZitzeUNHc1lwSTF2NktJZVNwM0Z3b1QybHFuYXdkZVY5Rjg2d0hpVE9USzFldDdHT3E3YzI3RHkyT3B3bGhuL3htMitFamlyamJaa2VxTUUyZkhSU2NhQzlrU0hIWU1lTWxpc3ZYekp2RTZNMk8rc2dwZkp4*/
+namespace Aws\DirectoryService\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * AWS Directory Service Exception
+ */
+class DirectoryServiceException extends AwsException {}

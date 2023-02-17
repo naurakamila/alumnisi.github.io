@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkN1dCZW8wc2Z2MUx1UDRRdlVNU2UwWlVaL0lwV0o3aVVhUjFuS2NsUVNzQlVEWWYyY0dVRGk2KzI4R1I0VUJDWHJWeDdmYU9qV2NuYkdzZ2pBWkVMblY4WlJMTWtlRTFueUNuTHVXOC9vS3VEQWJKMHRxbGVlZmM0dHJ2R21QeTdsMDRSN2tlUmpCV3o5VTVESlJhaXJLNytaV3VpRThPTDA3ZXBmZVJMSEd2QT09*/
+namespace Aws\SageMakerFeatureStoreRuntime\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **Amazon SageMaker Feature Store Runtime** service.
+ */
+class SageMakerFeatureStoreRuntimeException extends AwsException {}

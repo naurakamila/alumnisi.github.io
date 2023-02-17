@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkNmE0Y1dHNkdFSXpYdFRmTDBqRlVWcWxNNTJMeHBjQjRIc1pna0hRcVhQQkx6OWxJY05UVEx1MWFMbDZRM1pxdXltTUxURWVSYmtLbUJUd2ZON3p2czdiUXVnbVJKM3Z5Yzg3TENuOGpTZHl3UHdZRmo4RUZnZjgvdStaSmhkV1hCSUR5cDhvOUZlSURvUmVrd3hmS3Z5bzFFRDVNeER0NGFtQ3RLQ2dYbkFmQT09*/
+namespace Aws\ApplicationDiscoveryService\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **AWS Application Discovery Service** service.
+ */
+class ApplicationDiscoveryServiceException extends AwsException {}

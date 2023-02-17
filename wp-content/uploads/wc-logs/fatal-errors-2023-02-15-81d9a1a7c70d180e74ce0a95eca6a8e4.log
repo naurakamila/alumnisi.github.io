@@ -1,0 +1,26 @@
+2023-02-15T09:21:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-core\activity\classes\activity.php on line 5534
+
+2023-02-15T13:07:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\google-listings-and-ads\vendor\google\apiclient-services\src\ShoppingContent\Resource\Orderinvoices.php on line 75
+
+2023-02-15T13:07:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\google-listings-and-ads\vendor\league\iso3166\src\ISO3166DataProvider.php on line 63
+
+2023-02-15T14:36:36+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatefrompng() in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-core\classes\simpleimage.php:105
+Stack trace:
+#0 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-core\classes\user.php(1276): PeepSoSimpleImage->png_to_jpeg('C:\\xampp\\tmp\\ph...')
+#1 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-core\classes\profileshortcode.php(325): PeepSoUser->move_avatar_file('C:\\xampp\\tmp\\ph...')
+#2 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(308): PeepSoProfileShortcode->save_avatar_form(NULL)
+#3 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wp\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-core\classes\profileshortcode.php(240): do_action('peepso_save_ava...', NULL)
+#6 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-core\classes\profile.php(237): PeepSoProfileShortcode->init()
+#7 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-core\classes\ajaxhandler.php(66): PeepSoProfile->upload_avatar(Object(PeepSoAjaxResponse))
+#8 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(308): PeepSoAjaxHandler->call_listeners(Object(WP))
+#9 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp\htdocs\wp\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp.php(797): do_action_ref_array('wp', Array)
+#12 C:\xampp\htdocs\wp\wordpress\wp-includes\functions.php(1332): WP->main('')
+#13 C:\xampp\htdocs\wp\wordpress\wp-blog-header.php(16): wp()
+#14 C:\xampp\htdocs\wp\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-core\classes\simpleimage.php on line 105
+

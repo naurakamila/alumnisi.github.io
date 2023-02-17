@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkN0ovRHcycUtSQ2taOStkSDVaOVdGVERpWUs3eVVMUk14cTl3Tlk3MkM0cWxsc200dFlNRDE2bnpUTnM5QnRZMlM1UGw4SlhKTE51Qzl6MEF2VDBNaW9lZ0VTclZxY1kwOUZ0RTltWm9Na3Q3TUZNM1BxV05FUERBWlgzYUh6a0hFMm5uUFhQY0hxUzBhQWM3UmxUUDh1UzR0M3plbjNtRHNXbjVMZ1VDVDBtdz09*/
+namespace Aws\KinesisVideoSignalingChannels\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **Amazon Kinesis Video Signaling Channels** service.
+ */
+class KinesisVideoSignalingChannelsException extends AwsException {}

@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkNWE3RzNKVVBVeHhyUTUvSjFsdHJzZWo4U05zb2psblJGdFRlQ0FoWHZLZFphMm5saGVraUpVdjBLZjdOUFQvSWxUZ2E3TDArL3JkdDZXWmFkSDJndjNWWi9KblV0YktxUzUzZThlNStMRnRMOUtvZmgyeHhDMUxQdUZ4M1d3SXovUkwwU0tWeEJTWDZVSVBxTE5zQVBwdk1qNXlWR0dtMnJ4TzY4Zk5TOGpyZz09*/
+namespace Aws\MarketplaceEntitlementService\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the **AWS Marketplace Entitlement Service** service.
+ */
+class MarketplaceEntitlementServiceException extends AwsException {}

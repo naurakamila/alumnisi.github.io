@@ -1,0 +1,7 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkNmFCc092OEd5Q3ZzVlFWY1BQTURRSVhjYUx4RmhlNzk4ZE11a211dXhqLzdHOUgxS2Q4d09aZCtnd01qcng5YXUzVmRVMUY3R21iWXE2bFpmYzNnWGR6eUl1Vmp4QjZEMmNrTjVvSFRCaW9iZ3JobUpOT2phbmZWWXRvcnZvTUpPTGVmdkFXb2E1eVhNMUFYYTJpK3Rz*/
+namespace Aws\Arn\Exception;
+
+/**
+ * Represents a failed attempt to construct an Arn
+ */
+class InvalidArnException extends \RuntimeException {}

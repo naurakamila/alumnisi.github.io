@@ -1,0 +1,11 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkNkRyYm0xZG5Kb2JLdEdpT0M2Q1BIQzFVNXVVcXM1SFVPQ1FpUVFzS01IQTNVRzQwU1ZZWXhSN3hlL3RRT1BwN3MwY2ExLzU4a2lKeGk5RHhZMUJDaVc3dE5zZDBEcnpwdUNyamlaNHpYN3pyOFQxcmFFQTMya2VjWlVhQ3ZuWkpsbHc5YUtwbms4VXZXZjhKVWxTUVNS*/
+namespace Aws\Exception;
+
+use Aws\HasMonitoringEventsTrait;
+use Aws\MonitoringEventsInterface;
+
+class IncalculablePayloadException extends \RuntimeException implements
+    MonitoringEventsInterface
+{
+    use HasMonitoringEventsTrait;
+}

@@ -1,0 +1,3 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkN1NVMzZqbFY4Q01SdHV1NTZhLzFuZHZLNlA3eTRHemxyV2NSQ1Q4eEpydEpuUTFhcmc2ZFNibVpmd2FlZTVVRENoUTNpblc2RHFyTzUzQm1QemlpVm5rL2hVNGxsOHRGUHRUemxZOGN4T1E2cVZDZ21oeExJa2hBakt0djBHd2VvPQ==*/
+// This file was auto-generated from sdk-root/src/data/waf-regional/2016-11-28/smoke.json
+return [ 'version' => 1, 'defaultRegion' => 'us-east-1', 'testCases' => [ [ 'operationName' => 'ListRules', 'input' => [ 'Limit' => 20, ], 'errorExpectedFromService' => false, ], [ 'operationName' => 'CreateSqlInjectionMatchSet', 'input' => [ 'Name' => 'fake_name', 'ChangeToken' => 'fake_token', ], 'errorExpectedFromService' => true, ], ],];

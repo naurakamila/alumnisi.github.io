@@ -1,0 +1,22 @@
+2023-02-14T14:40:21+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T14:40:21+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T14:41:37+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2023-02-14T14:41:37+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2023-02-14T14:41:38+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2023-02-14T14:41:38+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2023-02-14T14:42:30+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2023-02-14T14:42:30+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2023-02-14T15:09:51+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T15:10:31+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T15:13:19+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T15:13:55+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T15:15:10+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T15:16:22+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T15:16:44+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T15:17:29+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T15:22:45+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T15:24:14+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T15:25:06+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T15:27:11+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T15:27:14+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-14T15:29:15+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync

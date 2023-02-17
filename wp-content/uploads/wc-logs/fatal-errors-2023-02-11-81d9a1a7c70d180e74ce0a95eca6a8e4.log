@@ -1,0 +1,65 @@
+2023-02-11T14:08:33+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatefrompng() in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-photos\classes\photosajax.php:126
+Stack trace:
+#0 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-core\classes\ajaxhandler.php(66): PeepSoPhotosAjax->upload_photo(Object(PeepSoAjaxResponse))
+#1 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(308): PeepSoAjaxHandler->call_listeners(Object(WP))
+#2 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp.php(797): do_action_ref_array('wp', Array)
+#5 C:\xampp\htdocs\wp\wordpress\wp-includes\functions.php(1332): WP->main('')
+#6 C:\xampp\htdocs\wp\wordpress\wp-blog-header.php(16): wp()
+#7 C:\xampp\htdocs\wp\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-photos\classes\photosajax.php on line 126
+
+2023-02-11T14:09:05+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatefrompng() in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-photos\classes\photosajax.php:126
+Stack trace:
+#0 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-core\classes\ajaxhandler.php(66): PeepSoPhotosAjax->upload_photo(Object(PeepSoAjaxResponse))
+#1 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(308): PeepSoAjaxHandler->call_listeners(Object(WP))
+#2 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp.php(797): do_action_ref_array('wp', Array)
+#5 C:\xampp\htdocs\wp\wordpress\wp-includes\functions.php(1332): WP->main('')
+#6 C:\xampp\htdocs\wp\wordpress\wp-blog-header.php(16): wp()
+#7 C:\xampp\htdocs\wp\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-photos\classes\photosajax.php on line 126
+
+2023-02-11T14:15:44+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatefrompng() in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-photos\classes\photosajax.php:126
+Stack trace:
+#0 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-core\classes\ajaxhandler.php(66): PeepSoPhotosAjax->upload_photo(Object(PeepSoAjaxResponse))
+#1 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(308): PeepSoAjaxHandler->call_listeners(Object(WP))
+#2 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp.php(797): do_action_ref_array('wp', Array)
+#5 C:\xampp\htdocs\wp\wordpress\wp-includes\functions.php(1332): WP->main('')
+#6 C:\xampp\htdocs\wp\wordpress\wp-blog-header.php(16): wp()
+#7 C:\xampp\htdocs\wp\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-photos\classes\photosajax.php on line 126
+
+2023-02-11T14:15:51+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatefrompng() in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-photos\classes\photosajax.php:126
+Stack trace:
+#0 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-core\classes\ajaxhandler.php(66): PeepSoPhotosAjax->upload_photo(Object(PeepSoAjaxResponse))
+#1 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(308): PeepSoAjaxHandler->call_listeners(Object(WP))
+#2 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp.php(797): do_action_ref_array('wp', Array)
+#5 C:\xampp\htdocs\wp\wordpress\wp-includes\functions.php(1332): WP->main('')
+#6 C:\xampp\htdocs\wp\wordpress\wp-blog-header.php(16): wp()
+#7 C:\xampp\htdocs\wp\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-photos\classes\photosajax.php on line 126
+
+2023-02-11T14:25:02+00:00 CRITICAL Uncaught Error: Call to undefined function imagecreatefrompng() in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-photos\classes\photosajax.php:126
+Stack trace:
+#0 C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-core\classes\ajaxhandler.php(66): PeepSoPhotosAjax->upload_photo(Object(PeepSoAjaxResponse))
+#1 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(308): PeepSoAjaxHandler->call_listeners(Object(WP))
+#2 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wordpress\wp-includes\class-wp.php(797): do_action_ref_array('wp', Array)
+#5 C:\xampp\htdocs\wp\wordpress\wp-includes\functions.php(1332): WP->main('')
+#6 C:\xampp\htdocs\wp\wordpress\wp-blog-header.php(16): wp()
+#7 C:\xampp\htdocs\wp\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wp\wordpress\wp-content\plugins\peepso-photos\classes\photosajax.php on line 126
+

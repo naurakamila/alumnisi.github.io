@@ -1,0 +1,2 @@
+2023-02-12T13:16:21+00:00 CRITICAL Out of memory (allocated 10485760) (tried to allocate 20480 bytes) in C:\xampp\htdocs\wp\wordpress\wp-admin\includes\template.php on line 2061
+

@@ -1,0 +1,9 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkN1M5UG9mZU9PQUR5MHZuSlRXcmtjRlAxdTE3Rzl4VTVNaitmaStGWHl0YWc0NktZZ0UyOGx0dmZ6UjlXaWY3azBHOW9iVm9vMUZNUnJ3MC9LZ1NIQ1UvZ0FxbHVWNUVrZ0dha2VxVEhmOEtjRXpQY09rR2d2THVkcmRPNlp4U3NpSmZTaHJQK1pSUjhLQnZsTFRoTkts*/
+namespace Aws\CodePipeline\Exception;
+
+use Aws\Exception\AwsException;
+
+/**
+ * Represents an error interacting with the Amazon CodePipeline service.
+ */
+class CodePipelineException extends AwsException {}

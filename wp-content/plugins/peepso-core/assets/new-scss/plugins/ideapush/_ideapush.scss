@@ -1,0 +1,149 @@
+.ps-ideapush-item {
+  padding: var(--PADD--MD);
+  border-top: 1px solid var(--DIVIDER);
+  border-bottom: 1px solid var(--DIVIDER);
+  
+  .ps-page--ideapush & {
+    margin-bottom: var(--PADD--MD);
+    border: 0;
+    background: var(--PS-COLOR--APP);
+    box-shadow: var(--BOX-SHADOW);
+    border-radius: var(--BORDER-RADIUS);
+  }
+
+  .ps-ideapush--half & {
+    margin-bottom: 0;
+  }
+}
+
+.ps-ideapush-item__inner {
+  .ps-ideapush--half & {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.ps-ideapush-item__contents {
+  display: flex;
+
+  .ps-ideapush--half & {
+    margin-bottom: var(--PADD--MD);
+    flex-direction: column;
+  }
+}
+
+.ps-ideapush-item__title {
+  font-size: 120%;
+  font-weight: 500;
+  margin-bottom: var(--PADD--SM);
+
+  a {
+    color: var(--PS-COLOR--TEXT);
+  }
+}
+
+.ps-ideapush-item__desc {
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+
+  .ps-page--ideapush & {
+    display: block;
+  }
+}
+
+.ps-ideapush-item__votes {
+  margin-right: var(--PADD--MD);
+  
+  span {
+    display: inline-block;
+    text-align: center;
+    font-size: 120%;
+    border: 2px solid var(--DIVIDER);
+    border-radius: var(--BORDER-RADIUS);
+    padding: var(--PADD--SM);
+    height: 70px;
+    width: 70px;
+    line-height: 58px;
+
+    .ps-ideapush--half & {
+      height: auto;
+      line-height: unset;
+      text-align: center;
+      margin-bottom: var(--PADD);
+    }
+  }
+}
+
+.ps-ideapush-item__meta {
+  font-size: 80%;
+  color: var(--PS-COLOR--TEXT--LIGHT);
+  margin-top: var(--PADD);
+  display: flex;
+  align-items: center;
+}
+
+.ps-ideapush-item__meta-status {
+  padding: var(--PADD--XS) var(--PADD--SM);
+  border: 1px solid var(--DIVIDER);
+  margin-right: var(--PADD);
+  border-radius: var(--BORDER-RADIUS);
+}
+
+.ps-ideapush-item__thumb {
+  margin-top: var(--PADD--MD);
+  border-radius: var(--BORDER-RADIUS);
+  display: block;
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &:before {
+    content: "";
+    display: block;
+    padding-top: 60%;
+  }
+
+  .ps-ideapush--half & {
+    margin-top: auto;
+  }
+}
+
+.ps-ideapush-item__thumb--empty {
+  position: relative;
+  background-color: var(--PS-COLOR--APP--GRAY);
+
+  &:after {
+    content: "";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 400;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 250%;
+    color: var(--PS-COLOR--TEXT--LIGHTEN);
+
+    .ps-ideapush--half & {
+      top: 36%;
+    }
+  }
+}
+
+// Profile - Two column layout
+.ps-ideapush--half {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: var(--PADD--MD);
+  grid-row-gap: var(--PADD--MD);
+
+  @include mq($until: tablet) {
+    grid-template-columns: 1fr;
+  }
+}

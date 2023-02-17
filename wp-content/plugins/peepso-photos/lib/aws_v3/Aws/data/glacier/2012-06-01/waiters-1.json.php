@@ -1,0 +1,3 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkNmNnOEZMUE5Qb2JmMDV0S1paaitaY0lpU2hTck5qUm41djVvb0Y3Mi9uUUYxaVpSdktZWmM1K1I1R21ta0dheHdPdHI5WnpLWmZlM0wzVCt0R054a0M1MFVmcU5CUmF1MzhSUlk5Q3ZnMFNBV3FncG1XemJLbFpPbEd6YU9Uc0JrPQ==*/
+// This file was auto-generated from sdk-root/src/data/glacier/2012-06-01/waiters-1.json
+return [ 'waiters' => [ '__default__' => [ 'interval' => 3, 'max_attempts' => 15, ], '__VaultState' => [ 'operation' => 'DescribeVault', ], 'VaultExists' => [ 'extends' => '__VaultState', 'ignore_errors' => [ 'ResourceNotFoundException', ], 'success_type' => 'output', ], 'VaultNotExists' => [ 'extends' => '__VaultState', 'success_type' => 'error', 'success_value' => 'ResourceNotFoundException', ], ],];
